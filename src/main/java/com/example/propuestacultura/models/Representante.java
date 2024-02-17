@@ -92,4 +92,12 @@ public class Representante {
     public void setCorreo_electronico(String correo_electronico) {
         this.correo_electronico = correo_electronico;
     }
+
+    public TipoDocumento getTipo_documento() {
+        return tipo_documento;
+    }
+
+    public void setTipo_documento(TipoDocumento tipo_documento) {
+        this.tipo_documento = tipo_documento;
+    }
 }
